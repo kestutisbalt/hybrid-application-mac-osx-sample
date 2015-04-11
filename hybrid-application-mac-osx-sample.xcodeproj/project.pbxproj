@@ -11,6 +11,8 @@
 		BE2642291AD9A433002275D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2642281AD9A433002275D9 /* Images.xcassets */; };
 		BE26422C1AD9A433002275D9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE26422A1AD9A433002275D9 /* MainMenu.xib */; };
 		BE2642381AD9A433002275D9 /* hybrid_application_mac_osx_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2642371AD9A433002275D9 /* hybrid_application_mac_osx_sampleTests.swift */; };
+		BE6CD3371AD9AA11007BFA86 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE6CD3361AD9AA11007BFA86 /* WebKit.framework */; };
+		BE6CD3391AD9AA21007BFA86 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE6CD3381AD9AA21007BFA86 /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,8 @@
 		BE2642311AD9A433002275D9 /* hybrid-application-mac-osx-sampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hybrid-application-mac-osx-sampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE2642361AD9A433002275D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE2642371AD9A433002275D9 /* hybrid_application_mac_osx_sampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hybrid_application_mac_osx_sampleTests.swift; sourceTree = "<group>"; };
+		BE6CD3361AD9AA11007BFA86 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		BE6CD3381AD9AA21007BFA86 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE6CD3391AD9AA21007BFA86 /* Cocoa.framework in Frameworks */,
+				BE6CD3371AD9AA11007BFA86 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +61,8 @@
 		BE2642181AD9A433002275D9 = {
 			isa = PBXGroup;
 			children = (
+				BE6CD3381AD9AA21007BFA86 /* Cocoa.framework */,
+				BE6CD3361AD9AA11007BFA86 /* WebKit.framework */,
 				BE2642231AD9A433002275D9 /* hybrid-application-mac-osx-sample */,
 				BE2642341AD9A433002275D9 /* hybrid-application-mac-osx-sampleTests */,
 				BE2642221AD9A433002275D9 /* Products */,
@@ -396,6 +404,7 @@
 				BE26423D1AD9A433002275D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE26423E1AD9A433002275D9 /* Build configuration list for PBXNativeTarget "hybrid-application-mac-osx-sampleTests" */ = {
 			isa = XCConfigurationList;
@@ -404,6 +413,7 @@
 				BE2642401AD9A433002275D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
