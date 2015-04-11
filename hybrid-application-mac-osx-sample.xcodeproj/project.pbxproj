@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE2642271AD9A433002275D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2642261AD9A433002275D9 /* AppDelegate.swift */; };
+		BE2642291AD9A433002275D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2642281AD9A433002275D9 /* Images.xcassets */; };
+		BE26422C1AD9A433002275D9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE26422A1AD9A433002275D9 /* MainMenu.xib */; };
+		BE2642381AD9A433002275D9 /* hybrid_application_mac_osx_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2642371AD9A433002275D9 /* hybrid_application_mac_osx_sampleTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE2642321AD9A433002275D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE2642191AD9A433002275D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE2642201AD9A433002275D9;
+			remoteInfo = "hybrid-application-mac-osx-sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE2642211AD9A433002275D9 /* hybrid-application-mac-osx-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hybrid-application-mac-osx-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2642251AD9A433002275D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE2642261AD9A433002275D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE2642281AD9A433002275D9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BE26422B1AD9A433002275D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BE2642311AD9A433002275D9 /* hybrid-application-mac-osx-sampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hybrid-application-mac-osx-sampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2642361AD9A433002275D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE2642371AD9A433002275D9 /* hybrid_application_mac_osx_sampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hybrid_application_mac_osx_sampleTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE26421E1AD9A433002275D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE26422E1AD9A433002275D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE2642181AD9A433002275D9 = {
+			isa = PBXGroup;
+			children = (
+				BE2642231AD9A433002275D9 /* hybrid-application-mac-osx-sample */,
+				BE2642341AD9A433002275D9 /* hybrid-application-mac-osx-sampleTests */,
+				BE2642221AD9A433002275D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE2642221AD9A433002275D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE2642211AD9A433002275D9 /* hybrid-application-mac-osx-sample.app */,
+				BE2642311AD9A433002275D9 /* hybrid-application-mac-osx-sampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE2642231AD9A433002275D9 /* hybrid-application-mac-osx-sample */ = {
+			isa = PBXGroup;
+			children = (
+				BE2642261AD9A433002275D9 /* AppDelegate.swift */,
+				BE2642281AD9A433002275D9 /* Images.xcassets */,
+				BE26422A1AD9A433002275D9 /* MainMenu.xib */,
+				BE2642241AD9A433002275D9 /* Supporting Files */,
+			);
+			path = "hybrid-application-mac-osx-sample";
+			sourceTree = "<group>";
+		};
+		BE2642241AD9A433002275D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE2642251AD9A433002275D9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE2642341AD9A433002275D9 /* hybrid-application-mac-osx-sampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE2642371AD9A433002275D9 /* hybrid_application_mac_osx_sampleTests.swift */,
+				BE2642351AD9A433002275D9 /* Supporting Files */,
+			);
+			path = "hybrid-application-mac-osx-sampleTests";
+			sourceTree = "<group>";
+		};
+		BE2642351AD9A433002275D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE2642361AD9A433002275D9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE2642201AD9A433002275D9 /* hybrid-application-mac-osx-sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE26423B1AD9A433002275D9 /* Build configuration list for PBXNativeTarget "hybrid-application-mac-osx-sample" */;
+			buildPhases = (
+				BE26421D1AD9A433002275D9 /* Sources */,
+				BE26421E1AD9A433002275D9 /* Frameworks */,
+				BE26421F1AD9A433002275D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hybrid-application-mac-osx-sample";
+			productName = "hybrid-application-mac-osx-sample";
+			productReference = BE2642211AD9A433002275D9 /* hybrid-application-mac-osx-sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE2642301AD9A433002275D9 /* hybrid-application-mac-osx-sampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE26423E1AD9A433002275D9 /* Build configuration list for PBXNativeTarget "hybrid-application-mac-osx-sampleTests" */;
+			buildPhases = (
+				BE26422D1AD9A433002275D9 /* Sources */,
+				BE26422E1AD9A433002275D9 /* Frameworks */,
+				BE26422F1AD9A433002275D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE2642331AD9A433002275D9 /* PBXTargetDependency */,
+			);
+			name = "hybrid-application-mac-osx-sampleTests";
+			productName = "hybrid-application-mac-osx-sampleTests";
+			productReference = BE2642311AD9A433002275D9 /* hybrid-application-mac-osx-sampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE2642191AD9A433002275D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = kestutis;
+				TargetAttributes = {
+					BE2642201AD9A433002275D9 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					BE2642301AD9A433002275D9 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = BE2642201AD9A433002275D9;
+					};
+				};
+			};
+			buildConfigurationList = BE26421C1AD9A433002275D9 /* Build configuration list for PBXProject "hybrid-application-mac-osx-sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE2642181AD9A433002275D9;
+			productRefGroup = BE2642221AD9A433002275D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE2642201AD9A433002275D9 /* hybrid-application-mac-osx-sample */,
+				BE2642301AD9A433002275D9 /* hybrid-application-mac-osx-sampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE26421F1AD9A433002275D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2642291AD9A433002275D9 /* Images.xcassets in Resources */,
+				BE26422C1AD9A433002275D9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE26422F1AD9A433002275D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE26421D1AD9A433002275D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2642271AD9A433002275D9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE26422D1AD9A433002275D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2642381AD9A433002275D9 /* hybrid_application_mac_osx_sampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE2642331AD9A433002275D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE2642201AD9A433002275D9 /* hybrid-application-mac-osx-sample */;
+			targetProxy = BE2642321AD9A433002275D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE26422A1AD9A433002275D9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE26422B1AD9A433002275D9 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE2642391AD9A433002275D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE26423A1AD9A433002275D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BE26423C1AD9A433002275D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "hybrid-application-mac-osx-sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE26423D1AD9A433002275D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "hybrid-application-mac-osx-sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BE26423F1AD9A433002275D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "hybrid-application-mac-osx-sampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hybrid-application-mac-osx-sample.app/Contents/MacOS/hybrid-application-mac-osx-sample";
+			};
+			name = Debug;
+		};
+		BE2642401AD9A433002275D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "hybrid-application-mac-osx-sampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hybrid-application-mac-osx-sample.app/Contents/MacOS/hybrid-application-mac-osx-sample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE26421C1AD9A433002275D9 /* Build configuration list for PBXProject "hybrid-application-mac-osx-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE2642391AD9A433002275D9 /* Debug */,
+				BE26423A1AD9A433002275D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE26423B1AD9A433002275D9 /* Build configuration list for PBXNativeTarget "hybrid-application-mac-osx-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE26423C1AD9A433002275D9 /* Debug */,
+				BE26423D1AD9A433002275D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE26423E1AD9A433002275D9 /* Build configuration list for PBXNativeTarget "hybrid-application-mac-osx-sampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE26423F1AD9A433002275D9 /* Debug */,
+				BE2642401AD9A433002275D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE2642191AD9A433002275D9 /* Project object */;
+}
